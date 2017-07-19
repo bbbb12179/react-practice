@@ -115,11 +115,6 @@ export default (state = initialState, action) => {
           return data
         }
       })
-      // state.databaseList.map((data,index,databaseList)=>{
-      //   if(data.pk === action.pk){
-      //     databaseList[index] = {...state.dataForUpdate}
-      //   }
-      // })
       return {...state}
 
     case 'DO_DELETE':
